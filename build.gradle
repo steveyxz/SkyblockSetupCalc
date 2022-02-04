@@ -2,9 +2,6 @@ buildscript {
     repositories {
         mavenCentral()
     }
-    dependencies {
-        classpath 'com.github.rholder:gradle-one-jar:1.0.4'
-    }
 }
 
 plugins {
@@ -14,10 +11,10 @@ plugins {
 apply plugin: 'java'
 // plugin for java
 
-description = "An Util Bot"
+description = "A Skyblock Setup Price Calculator"
 sourceCompatibility = 15
 targetCompatibility = 15
-group 'clank-bot'
+group 'setup-calc'
 version '1.0'
 
 dependencies {
